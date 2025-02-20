@@ -22,7 +22,7 @@ jobs:
         uses: andyholmes/flatter@main
         with:
           files: |
-            build-aux/flatpak/sh.ppy.osu/sh.ppy.osu.yaml
+            build-aux/flatpaks/sh.ppy.osu/sh.ppy.osu.yaml
           upload-pages-artifact: true
           #upload-pages-includes: |
           #  default.css
