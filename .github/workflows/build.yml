@@ -37,7 +37,6 @@ jobs:
             flatpaks/music.deadbeef.player/music.deadbeef.player.yaml
           flatpak-builder-args: |
             --install-deps-from=flathub
-            --skip-if-unchanged
           gpg-sign: ${{ steps.gpg.outputs.fingerprint }}
           upload-pages-artifact: true
           #upload-pages-includes: |
