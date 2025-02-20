@@ -9,5 +9,8 @@ This repo relies on Flathub for its runtimes.
 
 ## Currently serving:
 - sh.ppy.osu
+- net.badlion.BadlionClient
+- com.pixelomer.ShijimaQt
+- music.deadbeef.player (Can't build extension yet)
 
 Until I can get my packages to show up in your download managers, you will have to install flatpaks via terminal.
