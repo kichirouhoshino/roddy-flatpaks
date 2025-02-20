@@ -20,11 +20,22 @@ jobs:
         with:
           submodules: 'true'
 
+      - name: Setup GPG
+        id: gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+
       - name: Build
         uses: andyholmes/flatter@main
         with:
           files: |
             flatpaks/sh.ppy.osu/sh.ppy.osu.yaml
+            flatpaks/com.pixelomer.ShijimaQt/com.pixelomer.ShijimaQt.yaml
+            flatpaks/net.badlion.BadlionClient/net.badlion.BadlionClient.yaml
+            flatpaks/music.deadbeef.player/music.deadbeef.player.yaml
+          gpg-sign: ${{ steps.gpg.outputs.fingerprint }}
           upload-pages-artifact: true
           #upload-pages-includes: |
           #  default.css
