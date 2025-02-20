@@ -35,6 +35,9 @@ jobs:
             flatpaks/com.pixelomer.ShijimaQt/com.pixelomer.ShijimaQt.yaml
             flatpaks/net.badlion.BadlionClient/net.badlion.BadlionClient.yaml
             flatpaks/music.deadbeef.player/music.deadbeef.player.yaml
+          flatpak-builder-args: |
+            --install-deps-from=flathub
+            --skip-if-unchanged
           gpg-sign: ${{ steps.gpg.outputs.fingerprint }}
           upload-pages-artifact: true
           #upload-pages-includes: |
