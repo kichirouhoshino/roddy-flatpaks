@@ -32,7 +32,7 @@ jobs:
         with:
           files: |
             flatpaks/sh.ppy.osu/sh.ppy.osu.yaml
-            flatpaks/music.deadbeef.player/music.deadbeef.player.yaml
+            flatpaks/net.badlion.BadlionClient/net.badlion.BadlionClient.yaml
           flatpak-builder-args: |
             --install-deps-from=flathub
           gpg-sign: ${{ steps.gpg.outputs.fingerprint }}
