@@ -1,0 +1,3 @@
+[submodule "flatpaks/sh.ppy.osu"]
+	path = flatpaks/sh.ppy.osu
+	url = git@github.com:kichirouhoshino/sh.ppy.osu.git
