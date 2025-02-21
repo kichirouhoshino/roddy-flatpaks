@@ -35,6 +35,7 @@ jobs:
             flatpaks/net.badlion.BadlionClient/net.badlion.BadlionClient.yaml
             flatpaks/music.deadbeef.player/music.deadbeef.player.yaml
             flatpaks/com.pixelomer.ShijimaQt/com.pixelomer.ShijimaQt.yaml
+            flatpaks/com.archimatetool.Archi/com.archimatetool.Archi.yaml
           flatpak-builder-args: |
             --install-deps-from=flathub
             --skip-if-unchanged

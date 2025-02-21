@@ -10,3 +10,6 @@
 [submodule "flatpaks/music.deadbeef.player"]
 	path = flatpaks/music.deadbeef.player
 	url = git@github.com:kichirouhoshino/deadbeef-flatpak.git
+[submodule "flatpaks/com.archimatetool.Archi"]
+	path = flatpaks/com.archimatetool.Archi
+	url = https://github.com/kichirouhoshino/Archi-Flatpak.git
