@@ -1,15 +1,15 @@
 [submodule "flatpaks/sh.ppy.osu"]
 	path = flatpaks/sh.ppy.osu
-	url = git@github.com:kichirouhoshino/sh.ppy.osu.git
+	url = https://github.com/kichirouhoshino/sh.ppy.osu.git
 [submodule "flatpaks/net.badlion.BadlionClient"]
 	path = flatpaks/net.badlion.BadlionClient
-	url = git@github.com:kichirouhoshino/BadlionClient-Flatpak.git
+	url = https://github.com/kichirouhoshino/BadlionClient-Flatpak.git
 [submodule "flatpaks/com.pixelomer.ShijimaQt"]
 	path = flatpaks/com.pixelomer.ShijimaQt
-	url = git@github.com:kichirouhoshino/shijima-qt-flatpak.git
+	url = https://github.com/kichirouhoshino/shijima-qt-flatpak.git
 [submodule "flatpaks/music.deadbeef.player"]
 	path = flatpaks/music.deadbeef.player
-	url = git@github.com:kichirouhoshino/deadbeef-flatpak.git
+	url = https://github.com/kichirouhoshino/deadbeef-flatpak.git
 [submodule "flatpaks/com.archimatetool.Archi"]
 	path = flatpaks/com.archimatetool.Archi
 	url = https://github.com/kichirouhoshino/Archi-Flatpak.git
