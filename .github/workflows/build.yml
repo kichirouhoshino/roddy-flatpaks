@@ -36,7 +36,7 @@ jobs:
             flatpaks/music.deadbeef.player/music.deadbeef.player.yaml
             flatpaks/com.pixelomer.ShijimaQt/com.pixelomer.ShijimaQt.yaml
             flatpaks/com.archimatetool.Archi/com.archimatetool.Archi.yaml
-            flatpaks/de.blitzdose.serverctrl/de.blitzdose.serverctrl
+            flatpaks/de.blitzdose.serverctrl/de.blitzdose.serverctrl.yaml
           flatpak-builder-args: |
             --install-deps-from=flathub
             --skip-if-unchanged
