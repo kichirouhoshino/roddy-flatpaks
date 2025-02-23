@@ -2,8 +2,9 @@
 Personal Flatpak Repo
 
 ## Add repo
-``` bash
-flatpak remote-add roddy-flatpak https://kichirouhoshino.github.io/roddy-flatpaks/index.flatpakrepo
+Remove the `--user` argument to install system-wide.
+```bash
+flatpak remote-add --user roddy-flatpak https://kichirouhoshino.github.io/roddy-flatpaks/index.flatpakrepo
 ```
 Most of the apps I publish has a metainfo so it shows up in your graphical package manager. This repo relies on Flathub for its runtimes.
 
@@ -13,3 +14,4 @@ Most of the apps I publish has a metainfo so it shows up in your graphical packa
 - ShijimaQt - [com.pixelomer.ShijimaQt](https://github.com/kichirouhoshino/shijima-qt-flatpak)
 - DeaDBeeF Music Player - [music.deadbeef.player](https://github.com/kichirouhoshino/deadbeef-flatpak)
 - Archi - [com.archimatetool.Archi](https://github.com/kichirouhoshino/Archi-Flatpak)
+- ServerCtrl - [de.blitzdose.serverctrl](https://github.com/kichirouhoshino/ServerCtrl-Flatpak)

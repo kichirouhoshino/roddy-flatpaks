@@ -13,3 +13,6 @@
 [submodule "flatpaks/com.archimatetool.Archi"]
 	path = flatpaks/com.archimatetool.Archi
 	url = https://github.com/kichirouhoshino/Archi-Flatpak.git
+[submodule "flatpaks/de.blitzdose.serverctrl"]
+	path = flatpaks/de.blitzdose.serverctrl
+	url = https://github.com/kichirouhoshino/ServerCtrl-Flatpak.git
