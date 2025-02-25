@@ -16,3 +16,6 @@
 [submodule "flatpaks/de.blitzdose.serverctrl"]
 	path = flatpaks/de.blitzdose.serverctrl
 	url = https://github.com/kichirouhoshino/ServerCtrl-Flatpak.git
+[submodule "flatpaks/io.github.spartacus04.jext-plugin-manager"]
+	path = flatpaks/io.github.spartacus04.jext-plugin-manager
+	url = https://github.com/kichirouhoshino/jext-plugin-manager-Flatpak.git

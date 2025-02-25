@@ -37,6 +37,7 @@ jobs:
             flatpaks/com.pixelomer.ShijimaQt/com.pixelomer.ShijimaQt.yaml
             flatpaks/com.archimatetool.Archi/com.archimatetool.Archi.yaml
             flatpaks/de.blitzdose.serverctrl/de.blitzdose.serverctrl.yaml
+            flatpaks/io.github.spartacus04.jext-plugin-manager/io.github.spartacus04.jext-plugin-manager.yaml
           flatpak-builder-args: |
             --install-deps-from=flathub
             --skip-if-unchanged
