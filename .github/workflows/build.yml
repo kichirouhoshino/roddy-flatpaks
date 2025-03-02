@@ -38,6 +38,7 @@ jobs:
             flatpaks/com.archimatetool.Archi/com.archimatetool.Archi.yaml
             flatpaks/de.blitzdose.serverctrl/de.blitzdose.serverctrl.yaml
             flatpaks/io.github.spartacus04.jext-plugin-manager/io.github.spartacus04.jext-plugin-manager.yaml
+            flatpaks/com.github.MikeWang000000.spek-X/com.github.MikeWang000000.spek-X.yml
           flatpak-builder-args: |
             --install-deps-from=flathub
             --skip-if-unchanged

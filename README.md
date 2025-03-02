@@ -16,3 +16,4 @@ Most of the apps I publish has a metainfo so it shows up in your graphical packa
 - Archi - [com.archimatetool.Archi](https://github.com/kichirouhoshino/Archi-Flatpak)
 - ServerCtrl - [de.blitzdose.serverctrl](https://github.com/kichirouhoshino/ServerCtrl-Flatpak)
 - Jext Plugin Manager - [io.github.spartacus04.jext-plugin-manager](https://github.com/kichirouhoshino/jext-plugin-manager-Flatpak)
+- Spek-X - [com.github.MikeWang000000.spek-X](https://github.com/kichirouhoshino/spek-X-Flatpak)

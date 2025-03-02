@@ -19,3 +19,6 @@
 [submodule "flatpaks/io.github.spartacus04.jext-plugin-manager"]
 	path = flatpaks/io.github.spartacus04.jext-plugin-manager
 	url = https://github.com/kichirouhoshino/jext-plugin-manager-Flatpak.git
+[submodule "flatpaks/com.github.MikeWang000000.spek-X"]
+	path = flatpaks/com.github.MikeWang000000.spek-X
+	url = https://github.com/kichirouhoshino/spek-X-Flatpak.git
